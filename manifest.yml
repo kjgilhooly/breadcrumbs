@@ -1,0 +1,7 @@
+applications:
+- name: Breadcrumbs
+  memory: 512M
+  host: Breadcrumbs
+  domain: mybluemix.net
+  services: {
+    }

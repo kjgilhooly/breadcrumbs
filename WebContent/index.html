@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mile Marker</title>
+<script src="/locate.js"></script>
+</head>
+<body>
+	<h1>Breadcrumbs</h1>
+	<h2>IBM Innovation Center Dallas</h2>
+	<h3>Location Logging</h3>
+	<p>
+	<form action="/LogMarker" method="get">
+		<table>
+			<tr>
+				<td>Latitude</td>
+				<td><input id="lat" name="Latitude" type="text"></input></td>
+			</tr>
+			<tr>
+				<td>Longitude</td>
+				<td><input id="long" name="Longitude" type="text"></input></td>
+			</tr>
+			<tr>
+				<td>Accuracy</td>
+				<td><input id="accuracy" name="Accuracy" type="text"></input></td>
+			</tr>
+			<tr>
+				<td>Timestamp</td>
+				<td><input id="time" name="Timestamp" type="text"></input></td>
+			</tr>
+			<tr>
+				<td>Location</td>
+				<td><input id="location" name="Location" type="text"></input></td>
+			</tr>
+		</table>
+		<button onclick="locate()" type="button">Update</button>
+		<button type="submit">Log</button>
+	</form>
+	<p>
+	<div id="message"></div>
+</body>
+</html>

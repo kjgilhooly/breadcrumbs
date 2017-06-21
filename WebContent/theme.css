@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+<style>
+#message {
+	font-family: sans-serif;
+	font-size: large;
+}
+
+#location {
+	font-family: sans-serif;
+	font-size: large;
+}
+
+table, th, tr {
+border: 2px; 
+padding: 2px; 
+width: 60%;
+text-align: left; 
+font-family: sans-serif;
+font-size: large;
+}
+</style>

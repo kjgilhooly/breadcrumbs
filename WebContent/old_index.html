@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+<head>
+<meta charset="utf-8" />
+<title>Breadcrumbs</title>
+<link rel="stylesheet" type="text/css" href="/theme.css"></link>
+<script src="http://maps.google.com/maps/api/js?v=3.exp"></script>
+<script src="breadcrumbs.js"></script>
+</head>
+<body>
+	<h1>Breadcrumbs</h1>
+	<h2>IBM Innovation Center Dallas</h2>
+	<p>
+	<table>
+		<caption>Current Traffic Level?</caption>
+		<tr>
+			<td><button onclick="findMeNow('Light')">Light</button></td>
+			<td><button onclick="findMeNow('Medium')">Medium</button></td>
+			<td><button onclick="findMeNow('Heavy')">Heavy</button></td>
+		<tr>
+	</table>
+	<p>
+	<div id="message"></div>
+	<p>
+	<div id="location"></div>
+	<i>Remember, don't text and drive! Only use this application while
+		stopped.</i>
+</body>
+</html>
